@@ -10,7 +10,7 @@ const Navbar = () => {
                 <Link to="/hero" className='hover:text-gray-400'>Home</Link>
                 <Link to="/about" className='hover:text-gray-400'>About</Link>
                 <Link to="/services" className='hover:text-gray-400'>Services</Link>
-                <Link to="/projects" className='hover:text-gray-400'>Projects</Link>
+                <Link to="/blog" className='hover:text-gray-400'>Blog</Link>
                 <Link to="/contact" className='hover:text-gray-400'>Contact</Link>
             </div>
             <button className='bg-gradient-to-r from-green-400 to-blue-500 text-white hidden md:inline 

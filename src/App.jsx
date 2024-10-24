@@ -7,7 +7,8 @@ import { Services } from './Componenets/Services'
 import { Footer } from './Componenets/Footer'
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import { NotFound } from './Componenets/NotFound'
-
+import { Blog } from './Componenets/Blog'
+import { BlogPost } from './Componenets/Details'
 function App() {
 
   return (
@@ -21,6 +22,8 @@ function App() {
       <Route path='/about' element={<About/>} />
       <Route path='/contact' element={<Contact />}/>
       <Route path='/services' element={<Services/>} />
+      <Route path='/blog' element={<Blog/>} />
+      <Route path='/blog/:id' element={<BlogPost/>} />
       <Route path='/*' element={<NotFound/>} />
       
       </Routes>
